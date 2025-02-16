@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../CSS/About.css";
-import mountainImage from "../../Assets/a.jpg"; // Importing the image
+import mountainImage from "../../Assets/a.jpg"; 
 
 const About = () => {
   const [rating, setRating] = useState(0);
