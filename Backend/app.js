@@ -43,7 +43,7 @@ app.get('/api/test', (req, res) => {
   res.json({ message: 'API is working' });
 });
 
-// Error handling middleware
+// Error handling at middleware
 app.use((err, req, res, next) => {
   console.error('Error in middleware:', err);
   res.status(500).json({
