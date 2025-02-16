@@ -18,7 +18,7 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Request logging
+// Request log
 app.use((req, res, next) => {
   console.log('Incoming request:', {
     method: req.method,
