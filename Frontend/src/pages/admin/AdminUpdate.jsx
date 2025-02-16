@@ -4,7 +4,7 @@ import { getSingleProduct, updateProduct } from '../../apis/Api';
 import { toast } from 'react-toastify';
 import '../../CSS/AdminUpdate.css';
 import axios from 'axios';
-//const admin
+
 const AdminUpdate = () => {
     const { id } = useParams();
 
