@@ -4,7 +4,7 @@ import Homepage from "./pages/homepage/Homepage";
 import Register from "./pages/register/Register";
 import Navbar from "./components/Navbar";
 import ProductDescription from "./pages/product/ProductDescription";
-import RentProductDescription from "./pages/rent/RentProductDescription"; // Import RentProductDescription
+import RentProductDescription from "./pages/rent/RentProductDescription"; // Import RentProduct Description
 import About from "./pages/navbar/About";
 import Payment from "./pages/payment/Payment";
 
