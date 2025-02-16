@@ -52,7 +52,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-// 404 handler - make it more specific
+// 404 handler 
 app.use((req, res) => {
   console.log('404 Error:', {
     method: req.method,
