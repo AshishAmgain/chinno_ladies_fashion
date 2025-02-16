@@ -45,7 +45,7 @@ function Profile() {
           setError(response.data.message);
         }
       } catch (error) {
-        setError(null); // Clear error if fetch fails
+        setError(null); 
       } finally {
         setLoading(false);
       }
