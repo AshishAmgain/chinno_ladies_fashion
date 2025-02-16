@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import "../../CSS/Checkout.css";
 import Footer from "../../components/Footer";
-
+//checkout
 const Checkout = () => {
   const location = useLocation();
   const { cartItems } = location.state || {};
