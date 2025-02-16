@@ -26,7 +26,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// Mount routes with explicit console logs
+// Mount routes with explicit console log
 console.log('Mounting routes...');
 
 app.use('/api/orders', (req, res, next) => {
