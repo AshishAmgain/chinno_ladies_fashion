@@ -2,7 +2,7 @@ import React from 'react'
 import {Outlet, Navigate} from 'react-router-dom'
 
 const AdminRoutes = () => {
-    // get user information
+    // get user informations
     const user = JSON.parse(localStorage.getItem('user'))
 
     // check user and isAdmin
