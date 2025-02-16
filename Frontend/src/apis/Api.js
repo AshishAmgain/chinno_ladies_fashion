@@ -20,7 +20,7 @@ const getAuthHeaders = () => ({
 export const testApi = () => Api.get('/test');
 export const newTestApi = () => Api.get('/new_test');
 
-// User APIs
+// User API
 export const registerUserApi = (data) => Api.post('/api/user/create', data);
 export const loginUserApi = (data) => Api.post('/api/user/login', data);
 export const forgotPasswordApi = (data) => Api.post('/api/user/forgot_password', data);
