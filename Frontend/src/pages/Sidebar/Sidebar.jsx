@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../CSS/Sidebar.css';
+import '../../CSS/Sidebar.css'; //adding css
 import { Link } from 'react-router-dom';
 import add_product_icon from '../../Assets/Product_Cart.svg';
 import list_product_icon from '../../Assets/Product_list_icon.svg';
