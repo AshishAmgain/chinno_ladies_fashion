@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
-import "../CSS/Rent.css";
+import "../CSS/Rent.css"; //css of rent
 import { getSingleProduct } from "../apis/Api";
 
 const Rent = () => {
