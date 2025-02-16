@@ -39,7 +39,7 @@ function Profile() {
           const originalOrders = response.data.orders.filter(order => !order.isFake);
           setOrders(originalOrders);
           if (originalOrders.length === 0) {
-            setError(null); // Clear error if no orders found
+            setError(null); 
           }
         } else {
           setError(response.data.message);
