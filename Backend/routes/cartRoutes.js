@@ -11,7 +11,7 @@ const {
   clearCart
 } = require("../controllers/cartController");
 
-// Cart routes
+// Cart route
 router.post("/", verifyToken, addToCart);
 router.get("/", verifyToken, getCart);
 router.put("/:itemId", verifyToken, updateCartItem);
