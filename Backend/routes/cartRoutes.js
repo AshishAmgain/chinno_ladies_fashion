@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { verifyToken } = require("../middleware/auth");
 
-// Import cart controller
+// Import cart controllers
 const {
   addToCart,
   getCart,
