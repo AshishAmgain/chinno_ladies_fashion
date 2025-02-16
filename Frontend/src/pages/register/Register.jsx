@@ -21,7 +21,7 @@ const Register = () => {
     if (!lastName.trim()) newErrors.lastName = 'Lastname is required';
     if (!email.trim()) newErrors.email = 'Email is required';
     if (!password.trim()) newErrors.password = 'Password is required';
-    if (password.length < 8) newErrors.password = 'Password must be more than 8 characters';
+    if (password.length < 8) newErrors.password = 'Password must be more than 8 characters';//adding security in password
     if (password.trim() !== confirmPassword.trim()) newErrors.confirmPassword = 'Passwords do not match';
     if (!phone.trim()) newErrors.phone = 'Phone number is required';
     
