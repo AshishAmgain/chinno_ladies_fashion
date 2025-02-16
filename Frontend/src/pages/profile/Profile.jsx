@@ -26,7 +26,7 @@ function Profile() {
       return;
     }
 
-    // Fetch user data from local storage or API
+   
     const userData = localStorage.getItem('user');
     if (userData) {
       setUser(JSON.parse(userData));
