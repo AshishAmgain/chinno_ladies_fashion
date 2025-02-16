@@ -10,7 +10,7 @@ const userRoutes = require('./routes/userRoutes');
 const productRoutes = require('./routes/productRoutes');
 const cartRoutes = require('./routes/cartRoutes');
 
-// Load environment variables
+// Load environment variable
 dotenv.config();
 
 // Connect to MongoDB
